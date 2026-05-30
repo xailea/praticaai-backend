@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/praticaai
+    username: postgres
+    password: CHANGE_ME
+
+openai:
+  api-key: sk-CHANGE_ME
+
+supabase:
+  url: https://YOUR_PROJECT.supabase.co
+  service-role-key: CHANGE_ME
+  jwt-secret: CHANGE_ME
+  bucket: documenti
